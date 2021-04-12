@@ -11,8 +11,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(timeString){
-  const hour=timeString.split(0,1);
-  const min=timeString.split(3,5);
+  const hour=timeString.splice(0,1);
+  const min=timeString.splice(3,5);
   console.log(hour,min)
 }
 
