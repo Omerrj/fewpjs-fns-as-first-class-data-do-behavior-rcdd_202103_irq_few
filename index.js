@@ -13,6 +13,7 @@ function handleClick(e) {
 function greet(timeString){
   const hour=timeString.split(':')[0].Number;
 
+console.log(hour);
   if(hour<12){
     return 'Good Morning'
   }else if(hour>=12 && hour<=17){
@@ -20,5 +21,5 @@ function greet(timeString){
   }else return 'Good Evening'
 
 }
-greet('8:40')
+greet('8:40');
 /* Write your implementation of displayMessage() */
