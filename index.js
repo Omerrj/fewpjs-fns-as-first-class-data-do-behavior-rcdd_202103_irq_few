@@ -14,7 +14,7 @@ function greet(timeString){
   const hour=timeString.slice(0,2).Number;
   const min=timeString.slice(3,5).Number;
 
-  if(hour>12)
+  if(hour<12)
 
 }
 /* Write your implementation of displayMessage() */
