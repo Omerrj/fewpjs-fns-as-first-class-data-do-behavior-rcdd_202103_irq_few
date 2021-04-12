@@ -10,4 +10,11 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(timeString){
+  const hour=timeString.split(0,1);
+  const min=timeString.split(3,5);
+  console.log(hour,min)
+}
+
+greet('12:20');
 /* Write your implementation of displayMessage() */
