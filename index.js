@@ -14,5 +14,6 @@ function greet(timeString){
   const hour=timeString.slice(0,2);
   const min=timeString.slice(3,5);
 
+
 }
 /* Write your implementation of displayMessage() */
